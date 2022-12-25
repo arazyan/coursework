@@ -8,8 +8,10 @@
     b) *Windows*: C:\Users\Public\
 
 3. Создайте локальную базу данных в postgres, используйте нужный скрипт для вашей ОС:
-![mac/linux](https://github.com/arazyan/uni/blob/main/coursework/sourceUnix.sql)
-![win](https://github.com/arazyan/uni/blob/main/coursework/sourceWin.sql)
+
+* ![mac/linux](https://github.com/arazyan/uni/blob/main/coursework/sourceUnix.sql)
+
+* ![win](https://github.com/arazyan/uni/blob/main/coursework/sourceWin.sql)
 
 4. Соберите приложение, находясь в корневой папке проекта (в одной с main.cpp)
 
