@@ -3,7 +3,7 @@
 **Инструкция:**
 
 1. Установите PostgreSQL, CMake, libpqxx
-2. Создайте локальную базу данных в postgres, запустите ![этот](https://google.com) скрипт
+2. Создайте локальную базу данных в postgres, запустите ![этот](https://github.com/arazyan/uni/blob/main/coursework/source.sql) скрипт
 3. Соберите приложение, находясь в корневой папке проекта (в одной с main.cpp).
 
 
