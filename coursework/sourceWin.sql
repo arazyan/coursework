@@ -28,7 +28,7 @@ CREATE TABLE verbs
     en VARCHAR(200) NULL DEFAULT ''
 );
 
--- Заполнение данными (см. папку "etc")
+-- Заполнение данными 
 -- PostgreSQL команды
 
 \COPY adjectives(ru, en) FROM 'C:\Users\Public\ready_adjectives.csv'
