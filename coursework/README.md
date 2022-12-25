@@ -5,9 +5,9 @@
 1. Установите PostgreSQL, CMake, libpqxx
 2. Переместите все csv-файлы из каталога *dict* в
 
-    a) *Mac/Linux*: /tmp/
+    *Mac/Linux*: /tmp/
     
-    b) *Windows*: C:\Users\Public\
+    *Windows*: C:\Users\Public\
 
 3. Создайте локальную базу данных в postgres, используйте нужный скрипт для вашей ОС:
 
