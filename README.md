@@ -3,8 +3,15 @@
 **Инструкция:**
 
 1. Установите PostgreSQL, CMake, libpqxx
-2. Создайте локальную базу данных в postgres, запустите ![этот](https://github.com/arazyan/uni/blob/main/coursework/source.sql) скрипт
-3. Соберите приложение, находясь в корневой папке проекта (в одной с main.cpp)
+2. Переместите все csv-файлы из каталога **dict** в
+    a) *Mac/Linux*: /tmp/
+    b) *Windows*: C:\Users\Public\
+
+3. Создайте локальную базу данных в postgres, используйте нужный скрипт для вашей ОС:
+![mac/linux](https://github.com/arazyan/uni/blob/main/coursework/sourceUnix.sql)
+![win](https://github.com/arazyan/uni/blob/main/coursework/sourceWin.sql)
+
+4. Соберите приложение, находясь в корневой папке проекта (в одной с main.cpp)
 
 
 Сборка
