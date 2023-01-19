@@ -29,7 +29,9 @@ CREATE TABLE verbs
 );
 
 -- Заполнение данными 
--- PostgreSQL команды
+--   PostgreSQL команды
+
+-- Note. Вместо \Users\Public у вас может быть \Пользователи\Общие
 
 \COPY adjectives(ru, en) FROM 'C:\Users\Public\ready_adjectives.csv'
 DELIMITER ',' CSV HEADER;
