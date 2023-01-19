@@ -72,15 +72,23 @@ string translator_en_ru (string originalWord) {
 int main(int argc, char* argv[]) {
 
    string word;
+   string switcher;
 
-   cout << "Введите слово на английском: ";
-   cin >> word;
-   cout << '\n' << translator_en_ru(word) << endl;
+   cout << "Выберите направление перевода: Русский-английский [1]\nАнглийский-русский [2]" << endl;
+   cin >> switcher;
 
-
-   cout << "Введите слово на русском: ";
-   cin >> word;
-   cout << '\n' << translator_ru_en(word) << endl;
+   swith(switcher) {
+      case 1:
+         cout << "Введите слово на русском: ";
+         cin >> word;
+         cout << '\n' << translator_ru_en(word) << endl;
+         break;
+      case 2:
+         cout << "Введите слово на английском: ";
+         cin >> word;
+         cout << '\n' << translator_en_ru(word) << endl;     
+         break;
+   }
 
    return 0;
 }
