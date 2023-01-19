@@ -1,3 +1,0 @@
-/home/araz/git/university/cpp/coursework/out/CMakeFiles/main.dir
-/home/araz/git/university/cpp/coursework/out/CMakeFiles/edit_cache.dir
-/home/araz/git/university/cpp/coursework/out/CMakeFiles/rebuild_cache.dir
