@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/araz/git/university/cpp/coursework/build",
+  "command": "/usr/bin/c++ -g -o CMakeFiles/main.dir/main.o -c /home/araz/git/university/cpp/coursework/main.cpp",
+  "file": "/home/araz/git/university/cpp/coursework/main.cpp"
+}
+]
