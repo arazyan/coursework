@@ -2,6 +2,8 @@
 ---
 **Инструкция:**
 
+```git clone https://github.com/arazyan/coursework```
+
 1. Установите C++, PostgreSQL, CMake, libpqxx
 2. Переместите все csv-файлы из каталога *dict* в
 
